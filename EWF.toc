@@ -1,0 +1,49 @@
+## Interface: 80000
+## Title:|cffff5733Earth, Wind, & Fire|r
+## Description: Class rotation helpers for World of Warcraft.
+## Author: Riptide#1534
+## Version: 1.0.10
+## DefaultState: Enabled
+## SavedVariables: 
+
+ewf\Constants.lua
+
+ewf\Packages.lua
+ewf\class\Object.lua
+
+ewf\data\static\SPELL_CARD.lua
+ewf\data\static\TALENT_CARD.lua
+
+ewf\utils\EwfUtils.lua
+ewf\utils\MathUtils.lua
+ewf\utils\RangeUtils.lua
+ewf\utils\SpellUtils.lua
+
+ewf\cache\Result.lua
+
+ewf\event\Listener.lua
+ewf\event\EventMonitor.lua
+ewf\event\widgets\ArcaneMageBurnPhase.lua
+ewf\event\widgets\GlobalCooldown.lua
+ewf\event\widgets\TakeABreath.lua
+ewf\event\widgets\TrackSpellcasts.lua
+ewf\event\widgets\TrackSpellcooldowns.lua
+ewf\event\widgets\UnitAuras.lua
+
+ewf\unit\Character.lua
+ewf\unit\class\Mage.lua
+ewf\unit\class\Warrior.lua
+ewf\unit\class\mage\Arcane.lua
+ewf\unit\class\mage\Fire.lua
+ewf\unit\class\mage\Frost.lua
+ewf\unit\class\warrior\Arms.lua
+ewf\unit\class\warrior\Fury.lua
+ewf\unit\class\warrior\Protection.lua
+
+ewf\rotation\Rotation.lua
+ewf\rotation\rotations\MageArcane.lua
+ewf\rotation\rotations\MageFire.lua
+
+ewf\class\builders\UnitBuilder.lua
+
+ewf\EWF.lua
